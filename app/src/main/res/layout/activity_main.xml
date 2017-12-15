@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo.netstate.com.netstatedemo.MainActivity">
+
+    <include layout="@layout/actionbar" />
+
+    <Button
+        android:id="@+id/commonact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通用activity" />
+
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment" />
+
+    <Button
+        android:id="@+id/actionbar_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带有ActionBar的Activity" />
+
+
+    <Button
+        android:id="@+id/little_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去除封装，单独使用netstatusview" />
+
+</LinearLayout>
